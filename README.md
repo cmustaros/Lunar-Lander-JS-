@@ -1,8 +1,8 @@
 # Lunar-Lander
 
-Enlace RawGit: 
+Enlace RawGit: https://rawgit.com/cmustaros/Lunar-Lander-JS-/master/index.html
 
-Código validado:
+Código validado: https://validator.w3.org/nu/?doc=https%3A%2F%2Frawgit.com%2Fcmustaros%2FLunar-Lander-JS-%2Fmaster%2Findex.html
 
 Bibliografía: https://www.w3schools.com/js/
 
