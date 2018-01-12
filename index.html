@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lunar Lander</title>
+    <meta name="description" content="Lunar Lander con JavaScript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' media='screen and (min-width: 721px)' href='css/main.css'>
+    <link rel='stylesheet' media='screen and (max-width: 720px)' href='css/sp.css'>
+    <script src="js/js.js"></script>
+</head>
+
+<body>
+    <div id="nave">
+        <img id="cohete" src="img/nave.png" alt="img nave">
+    </div>
+	
+    <img onclick="pausar();" alt="pause" id ="parar" src="img/pausa.png">
+	
+    <div class="a">
+        <div id="cpanel">
+		<div class="controlesNave">Velocidad:<br><b><span id="velocidad">100</span></b> m/s</div>
+		<div class="controlesNave">Combustible:<br><b><span id="fuel">100</span></b> %</div>
+		<div class="controlesNave">Altitud:<br><b><span id="altura">100</span></b> m</div>
+        </div>
+    </div>
+	
+    <div class="b"></div>
+	
+    <div id="c">
+        <img onclick="reanudar();" alt="res" id="empezar" src="img/cerrar.png">
+        <br><br><h1>Pause</h1>
+    </div>
+	
+    <div class="d"></div>
+	
+    <div id="end">
+        <h1 id="endgame">GAME OVER</h1>
+        <span id="mensaje">Has perdido... Inténtalo de nuevo.</span><br>
+        <div id="restart"><img onclick="reset();" src="img/reiniciar.png" alt="img reset"></div>
+    </div>
+	
+</body>
+</html>
